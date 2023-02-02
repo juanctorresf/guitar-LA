@@ -286,7 +286,7 @@ a {
     background-color: var(--primary);
 }
 
-/****** seccion blog ******/
+/****** Seccion blog ******/
 
 .blog__grid {
     display: grid;
@@ -303,7 +303,17 @@ a {
     .blog__grid {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .blog__grid--pagina {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
+
+.entrada {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
 .entrada__contenido {
     padding: 2rem;
 }
