@@ -231,6 +231,45 @@ a {
     color: var(--blanco);
 }
 
+.producto__formulario {
+
+}
+
+.producto__label {
+    font-size: 2.2rem;
+    margin-right: 1rem;
+}
+
+.producto__cantidad {
+    border: 2px solid var(--primary);
+    padding: 1rem;
+}
+.producto__cantidad:focus-visible {
+    outline: 2px solid var(--primary);
+    border: none;
+}
+
+.producto__agregar-carrito {
+    margin-top: 6rem;
+    display: block;
+    background-color: var(--primary);
+    padding: 2rem 5rem;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    color: var(--blanco);
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    transition-property: background-color;
+    transition-duration: .25s;
+}
+
+.producto__agregar-carrito:hover {
+    cursor: pointer;
+    background-color: var(--negro);
+}
+
 /****** Seccion Cursos ******/
 
 .cursos {
