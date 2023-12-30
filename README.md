@@ -2,6 +2,8 @@
 
 ¡Bienvenido a Guitar LA! Este proyecto es un template para una tienda de ventas de guitarras, diseñado y desarrollado con HTML y CSS para poner en práctica habilidades en el desarrollo web front-end.
 
+Ver [DEMO](https://juanctorresf.github.io/guitar-LA/).
+
 ## Contenido
 
 1. [Inicio](#inicio)
